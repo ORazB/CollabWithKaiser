@@ -1,0 +1,22 @@
+/* Colors */
+:root {
+  --primary-color: #2f27ce;
+  --container-color: #dedcff;
+}
+
+.text-color {
+  color: #050315 !important;
+}
+
+body {
+  background-color: #fbfbfe;
+}
+
+.nav__hover {
+  transition: all .2s ease;
+  border-bottom: 2.5px solid transparent;
+}
+
+.nav__hover:hover {
+  border-bottom: 2.5px solid red;
+}
