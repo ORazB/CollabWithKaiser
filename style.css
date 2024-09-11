@@ -2,6 +2,7 @@
 :root {
   --primary-color: #4784ff;
   --container-color: #dedcff;
+  --rgb-color: background: linear-gradient(89.8deg, rgb(39, 115, 255) 4.3%, rgb(62, 211, 232) 101.4%);
 }
 
 .text-color {
@@ -25,3 +26,4 @@ body {
 .nav__hover:hover {
   border-bottom: 2.5px solid var(--primary-color);
 }
+
