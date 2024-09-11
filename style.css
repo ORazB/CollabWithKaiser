@@ -23,5 +23,5 @@ body {
 }
 
 .nav__hover:hover {
-  border-bottom: 2.5px solid red;
+  border-bottom: 2.5px solid var(--primary-color);
 }
