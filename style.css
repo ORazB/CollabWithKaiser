@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-  --primary-color: #433bff;
+  --primary-color: #4784ff;
   --container-color: #dedcff;
 }
 
@@ -10,6 +10,7 @@
 
 .btn {
   background-color: var(--primary-color) !important;
+  color: #fff !important;
 }
 
 body {
