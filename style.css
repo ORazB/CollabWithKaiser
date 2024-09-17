@@ -38,48 +38,47 @@ body {
   font-size: 1rem;
 }
 
-.experience-item {
+.experience-item, .education-item {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.experience-item:hover {
+.experience-item:hover, .education-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-.headline {
-  background-color: #fafafa;
-  border-radius: 0.5rem;
-}
-
-@media (max-width: 767px) {
-  .headline {
-      width: 100% !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .headline {
-      width: 80%;
-  }
-}
-
-@media (min-width: 992px) {
-  .headline {
-      width: 65%;
-  }
 }
 
 .text-primary-custom {
   color: #4784ff;
 }
 
+.gradient-bg {
+  background: linear-gradient(89.8deg, rgb(102, 151, 241) 4.3%, rgb(79, 136, 222) 101.4%);
+}
+
+.gradient-text {
+  background: linear-gradient(89.8deg, rgb(102, 151, 241) 4.3%, rgb(79, 136, 222) 101.4%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skill-card, .language-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover, .language-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 @media (min-width: 768px) {
   .download-btn {
-      padding: 0.75rem 1.5rem;
-      font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
   }
 }
+
 
 @media (max-width: 575px) {
   .experience-header {
