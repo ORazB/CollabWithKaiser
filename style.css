@@ -38,6 +38,42 @@ body {
   font-size: 1rem;
 }
 
+.experience-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.headline {
+  background-color: #fafafa;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .headline {
+      width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .headline {
+      width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .headline {
+      width: 65%;
+  }
+}
+
+.text-primary-custom {
+  color: #4784ff;
+}
+
 @media (min-width: 768px) {
   .download-btn {
       padding: 0.75rem 1.5rem;
@@ -48,10 +84,10 @@ body {
 @media (max-width: 575px) {
   .experience-header {
       flex-direction: column;
-      align-items: flex-start !important;
+      align-items: center !important;
   }
   .experience-header .buttons {
       margin-top: 1rem;
-      align-self: flex-start;
+      align-self: center;
   }
 }
