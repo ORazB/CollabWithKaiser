@@ -1,29 +1,66 @@
-/* Colors */
-:root {
-  --primary-color: #4784ff;
-  --container-color: #dedcff;
-  --rgb-color: background: linear-gradient(89.8deg, rgb(39, 115, 255) 4.3%, rgb(62, 211, 232) 101.4%);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.text-color {
-  color: #050315 !important;
+.card {
+  width: 350px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 1rem;
+  background-color: #eeeeee;
+  border-radius: 1rem;
+  display: grid;
+  gap: 0.5rem;
+  border: 2px solid #b5b5b5;
+  box-shadow: #989898 5px 5px 0px 0px;
 }
 
-.btn {
-  background-color: var(--primary-color) !important;
-  color: #fff !important;
+.card__image img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
-body {
-  background-color: #fbfbfe;
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
-.nav__hover {
-  transition: all .2s ease;
-  border-bottom: 2.5px solid transparent;
+p {
+  color: #6a6a6a;
 }
 
-.nav__hover:hover {
-  border-bottom: 2.5px solid var(--primary-color);
+.stars * {
+  color: #f1b13a;
 }
 
+.stars span {
+  color: #969696;
+}
+
+.main__content {
+  padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.main__content button {
+  justify-self: flex-start;
+  padding: 0.4rem 1.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid #2f2f2f;
+  color: #2f2f2f;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+
+.main__content button:hover {
+  background-color: #2f2f2f;
+  color: #fff;
+}
