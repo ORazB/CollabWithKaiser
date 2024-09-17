@@ -27,3 +27,31 @@ body {
   border-bottom: 2.5px solid var(--primary-color);
 }
 
+.card {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.download-btn {
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .download-btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .experience-header {
+      flex-direction: column;
+      align-items: flex-start !important;
+  }
+  .experience-header .buttons {
+      margin-top: 1rem;
+      align-self: flex-start;
+  }
+}
