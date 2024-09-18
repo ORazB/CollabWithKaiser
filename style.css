@@ -80,7 +80,7 @@ body {
 }
 
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
   .experience-header {
       flex-direction: column;
       align-items: center !important;
@@ -89,4 +89,4 @@ body {
       margin-top: 1rem;
       align-self: center;
   }
-}
+} */
